@@ -1,9 +1,13 @@
-var viewportWidth = $(window).width();
-var viewportHeight = $(window).height();
+var viewportWidth = window.innerWidth; //$(window).width();
+var viewportHeight = window.innerHeight; //$(window).height();
+
 
 var intro = document.getElementById('intro');
 var body = document.getElementsByTagName("BODY")[0];
 var video = document.getElementById('video');
+
+
+
 
 $(document).ready ( function(){
    $('#intro').vegas({
@@ -19,18 +23,27 @@ $(document).ready ( function(){
 	        { src: 'img/foto5.jpg' }
 	    ]
 	});
-    headerSize();
+
+
+   $(window).resize(function()
+   {
+   		resizeMyView();
+   });
+   
+   resizeMyView();
+});
+
+function resizeMyView() 
+{
+	viewportWidth = window.innerWidth; //$(window).width();
+	viewportHeight = window.innerHeight; //$(window).height();
+	
+	headerSize();
     bodySize();
     videoSize();
-});
-$(window).resize(function() {
-	var viewportWidth = $(window).width();
-	var viewportHeight = $(window).height();
-	intro.style.width = viewportWidth + "px";
-	intro.style.height = viewportHeight + "px";
-	body.style.width = viewportWidth + "px";
-	body.style.height = viewportHeight + "px";
-});
+};
+
+
 function headerSize(){
 	intro.style.width = viewportWidth + "px";
 	intro.style.height = viewportHeight + "px";
