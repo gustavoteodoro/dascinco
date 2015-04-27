@@ -1,0 +1,433 @@
+/* HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* line 3, ../scss/main.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 9, ../scss/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 14, ../scss/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 19, ../scss/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 33, ../scss/main.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 37, ../scss/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, ../scss/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 47, ../scss/main.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+/* line 59, ../scss/main.scss */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* line 63, ../scss/main.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+/* line 72, ../scss/main.scss */
+.header-container {
+  border-bottom: 20px solid #e44d26;
+}
+
+/* line 77, ../scss/main.scss */
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26;
+}
+
+/* line 83, ../scss/main.scss */
+.header-container,
+.footer-container,
+.main aside {
+  background: #f16529;
+}
+
+/* line 87, ../scss/main.scss */
+.title {
+  color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+/* line 95, ../scss/main.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 101, ../scss/main.scss */
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #e44d26;
+}
+
+/* line 115, ../scss/main.scss */
+nav a:hover,
+nav a:visited {
+  color: white;
+}
+
+/* line 119, ../scss/main.scss */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+/* line 127, ../scss/main.scss */
+.main {
+  padding: 30px 0;
+}
+
+/* line 131, ../scss/main.scss */
+.main article h1 {
+  font-size: 2em;
+}
+
+/* line 135, ../scss/main.scss */
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+
+/* line 140, ../scss/main.scss */
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+/* line 149, ../scss/main.scss */
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 158, ../scss/main.scss */
+body {
+  background: #000;
+}
+
+/* line 161, ../scss/main.scss */
+header {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 165, ../scss/main.scss */
+header h1 {
+  margin-top: 25%;
+  font-family: 'Merienda', cursive;
+  font-weight: 400;
+  font-size: 100px;
+  color: #fff;
+  opacity: 0.6;
+}
+/* line 173, ../scss/main.scss */
+header h2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 100px 0;
+  opacity: 0.9;
+}
+/* line 180, ../scss/main.scss */
+header a {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 30px;
+  -webkit-transition: background 0.4s, color 0.4s;
+  /* Safari */
+  transition: background 0.4s, color 0.4s;
+}
+/* line 190, ../scss/main.scss */
+header a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /* line 217, ../scss/main.scss */
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
+
+  /* line 225, ../scss/main.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 229, ../scss/main.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  /* line 237, ../scss/main.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 241, ../scss/main.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* line 253, ../scss/main.scss */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+  }
+
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* line 263, ../scss/main.scss */
+  .title {
+    float: left;
+  }
+
+  /* line 267, ../scss/main.scss */
+  nav {
+    float: right;
+    width: 38%;
+  }
+
+  /* ============
+      WIDE: Main
+     ============ */
+  /* line 276, ../scss/main.scss */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+
+  /* line 281, ../scss/main.scss */
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+  /* line 293, ../scss/main.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 303, ../scss/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 308, ../scss/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 320, ../scss/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 329, ../scss/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 334, ../scss/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 339, ../scss/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 343, ../scss/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 354, ../scss/main.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 362, ../scss/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 366, ../scss/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 370, ../scss/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 375, ../scss/main.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* line 380, ../scss/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 385, ../scss/main.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 390, ../scss/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 394, ../scss/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 400, ../scss/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 406, ../scss/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
